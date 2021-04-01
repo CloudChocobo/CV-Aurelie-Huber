@@ -1,0 +1,115 @@
+                body {
+                    font-family: "times new roman", times, serif;
+                    display: flex;
+                    flex-direction: column;
+                    /*grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+    border: 10px;*/
+                    background-color: #ebe6e6;
+                    margin: 10px 0;
+                    padding: 0;
+                    text-align: center;
+                }
+                
+                .contenu {
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                .titre {
+                    /*grid-column: 1 / -1;*/
+                    border: 3px rgb(44, 86, 105) solid;
+                    border-radius: 7px;
+                    background-color: #ffff;
+                    color: rgb(44, 86, 105);
+                    width: 300px;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+                
+                .profil {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #ebe6e6;
+                    color: rgb(44, 86, 105);
+                    align-items: flex-start;
+                }
+                
+                h1 {
+                    font-size: 40px;
+                    text-align: match-parent;
+                    color: rgb(44, 86, 105);
+                    background-color: #ffff;
+                }
+                
+                .photo {
+                    align-content: center;
+                    margin-top: 50px;
+                }
+                
+                h2 {
+                    font-size: 30px;
+                    text-align: center;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 10px;
+                    border: 3px rgb(44, 86, 105) solid;
+                    border-radius: 10px;
+                    color: rgb(44, 86, 105);
+                    background-color: #ffff;
+                    width: 300px;
+                }
+                
+                a {
+                    font-size: 18px;
+                    font-weight: normal;
+                    text-decoration: rgb(44, 86, 105);
+                    color: rgb(44, 86, 105);
+                }
+                
+                .p {
+                    align-items: flex-start;
+                    color: rgb(44, 86, 105);
+                }
+                
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    color: rgb(44, 86, 105);
+                }
+                
+                .blabla box {
+                    grid-column: 1;
+                    grid-row: 1;
+                }
+                
+                .main {
+                    grid-column: 2;
+                }
+                
+                .life {
+                    grid-column: 3;
+                }
+                
+                .box {
+                    padding: 20px;
+                    color: rgb(44, 86, 105);
+                }
+                
+                .box2 {
+                    padding: 20px;
+                    color: rgb(44, 86, 105);
+                }
+                
+                .contact {
+                    padding: 20px;
+                    grid-column: 1;
+                    color: rgb(44, 86, 105);
+                }
+                
+                .footer {
+                    color: rgb(44, 86, 105);
+                }
