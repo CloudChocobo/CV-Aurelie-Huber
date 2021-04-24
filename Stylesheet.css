@@ -1,3 +1,88 @@
-p {
-    color: ;
+/*style général de la page*/
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;box-sizing: border-box;
+}
+body{
+    background: rgb(248, 235, 235);
+}
+p{
+    font-size: 1em; /* valeur taille de la police de caractère*/
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*Header, Footer*/
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background:rgb(255, 201, 201);
+    box-shadow: 0px 0px 15px #333;
+}
+header{
+    border-bottom: 2px solid #fff;
+    height: 180px;
+}
+header h1{
+    color:rgb(102, 102, 102);
+    font-size: 1.5em;width: 90%;
+    margin: 0 auto;
+}
+header h2{
+    color:rgb(102, 102, 102);
+    font-size: 1em;width: 90%;
+    margin: 0 auto;
+}
+header h3{
+    color:rgb(102, 102, 102);
+    font-size: 1em;width: 90%;
+    margin: 0 auto;
+}
+footer{
+    border-top: 2px solid #fff;
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+}
+
+/*Sections*/
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+section > div{
+    width: 90%
+}
+
+.photo{
+    text-align: right;
+}
+.photo img{
+    width: 150px;
+    height: 170px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 10%;
+    margin-top: -80px;
 }
