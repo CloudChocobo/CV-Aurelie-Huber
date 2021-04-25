@@ -1,6 +1,6 @@
 /*style général de la page*/
 *{
-    font-family: Avenir, sans-serif;
+    font-family:Arial, Helvetica,sans-serif;
     padding: 0px;
     margin: 0px;
     text-align: justify;box-sizing: border-box;
@@ -21,11 +21,11 @@ a{
 header, footer{
     width: 100%;
     padding: 20px 0px;
-    background:rgb(255, 201, 201);
-    box-shadow: 0px 0px 15px #333;
+    background:rgb(255, 231, 231);
+    box-shadow: 0px 0px 15px rgb(255, 182, 182);
 }
 header{
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid rgb(255, 182, 182);
     height: 180px;
 }
 header h1{
@@ -47,16 +47,13 @@ header h3{
     text-align: center;
 }
 footer{
-    border-top: 2px solid #fff;
+    border-top: 2px solid rgb(255, 182, 182);
 }
 footer p{
     width: 90%;
     margin: 0 auto;
-    color: #fff;
+    color:rgb(102, 102, 102);
     text-align: center;
-}
-footer a{
-    color: #fff;
 }
 
 /*Sections*/
@@ -67,8 +64,8 @@ section{
     width: 100%;
     padding-bottom: 20px;
     margin: 0px auto;
-    box-shadow: 0px 0px 10px #bbb;
-    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(255, 182, 182);
+    background-color: rgb(245, 252, 253);
 }
 section h2{
     margin: 20px 0;
@@ -78,19 +75,20 @@ section > div{
     width: 90%
 }
 
+/*presentation*/
 .photo{
     text-align: left;
 }
 .photo img{
     width: 160px;
-    height: 180px;
+    height: 190px;
     border: 3px solid #fff;
-    box-shadow: 0px 0px 10px #777;
+    box-shadow: 0px 0px 10px rgb(138, 137, 137);
     border-radius: 10%;
     margin-top: -90px;
 }
 .presentation{
-    border-bottom: 2px dashed #CCC;
+    border-bottom: 2px dashed rgb(255, 182, 182);
 }
 .contact-flex{
     display: flex;
@@ -103,22 +101,17 @@ section > div{
 .contact-flex p:last-child{
     flex: 0 0 60%;
 }
-.reseaux{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px auto 0px auto;
-}
 .reseaux img{
     width: 40px;
     height: 40px;
 }
+
+/*bloc formation*/
 .formation{
     display: flex;
     flex-flow: row wrap;
-    border-bottom: 1px solid #bbb;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    
 }
 .formation-info{
     display: flex;
@@ -126,7 +119,7 @@ section > div{
 }
 .formation-logo{
     flex: 0 0 25%;
-    max-width: 100px;
+    max-width: 60px;
 }
 .formation-info{
     flex: 0 0 70%;
@@ -142,16 +135,82 @@ section > div{
     font-size: 1em;
     font-weight: normal;
 }
+
+/*bloc compétences acquises en formation*/
+.competence{
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.competence-desc{
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    align-items: right;
+    flex: 0 0 75%;
+    margin-left: auto;
+}
 .desc{
     display: flex;
     flex-flow: column wrap;
-    flex: 0 1;
+    flex: 0 1 20%;
     align-items: center;
     margin-bottom: 20px;
 }
 .desc img{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
-    box-shadow: 0px 0px 15px #555;
+    box-shadow: 0px 0px 15px rgb(138, 137, 137);
+}
+
+/*bloc compétences personnelles*/
+
+/*bloc centres d'intérêts*/
+.interets{
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.competence-desc{
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    align-items: right;
+    flex: 0 0 75%;
+    margin-left: auto;
+}
+.desc{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 1 20%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.interets{
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.interets-desc{
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    align-items: right;
+    flex: 0 0 75%;
+    margin-left: auto;
+}
+
+.interets .twitter{
+    width: 25px;
+    height: 25px;
+    margin-top: -30px;
+    margin-bottom: -10px;
 }
