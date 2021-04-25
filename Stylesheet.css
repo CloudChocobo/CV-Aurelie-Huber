@@ -6,7 +6,7 @@
     text-align: justify;box-sizing: border-box;
 }
 body{
-    background: rgb(255, 231, 231);
+    background: rgb(247, 205, 205);
 }
 p{
     font-size: 1em; /* valeur taille de la police de caractère*/
@@ -21,11 +21,11 @@ a{
 header, footer{
     width: 100%;
     padding: 20px 0px;
-    background:rgb(255, 231, 231);
-    box-shadow: 0px 0px 15px rgb(255, 182, 182);
+    background:rgb(247, 205, 205);
+    box-shadow: 0px 0px 15px rgb(243, 148, 148);
 }
 header{
-    border-bottom: 2px solid rgb(255, 182, 182);
+    border-bottom: 2px solid rgb(243, 148, 148);
     height: 180px;
 }
 header h1{
@@ -47,7 +47,7 @@ header h3{
     text-align: center;
 }
 footer{
-    border-top: 2px solid rgb(255, 182, 182);
+    border-top: 2px solid rgb(243, 148, 148);
 }
 footer p{
     width: 90%;
@@ -64,7 +64,7 @@ section{
     width: 100%;
     padding-bottom: 20px;
     margin: 0px auto;
-    box-shadow: 0px 0px 10px rgb(255, 182, 182);
+    box-shadow: 0px 0px 10px rgb(243, 148, 148);
     background-color: rgb(255, 255, 255);
 }
 section h2{
@@ -82,13 +82,13 @@ section > div{
 .photo img{
     width: 160px;
     height: 190px;
-    border: 3px solid rgb(255, 182, 182);
+    border: 3px solid rgb(243, 148, 148);
     box-shadow: 0px 0px 10px rgb(138, 137, 137);
     border-radius: 10%;
     margin-top: -90px;
 }
 .presentation{
-    border-bottom: 2px dashed rgb(255, 182, 182);
+    border-bottom: 2px dashed rgb(243, 148, 148);
 }
 .contact-flex{
     display: flex;
@@ -196,7 +196,7 @@ section > div{
 @media screen and (min-width: 980px){
     section{
         width: 80%;
-        box-shadow: 0px 0px 10px rgb(255, 182, 182);
+        box-shadow: 0px 0px 10px rgb(243, 148, 148);
     }
     header h1{
         width: 80%;
