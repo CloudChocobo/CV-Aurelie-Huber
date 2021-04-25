@@ -77,7 +77,7 @@ section > div{
 
 /*presentation*/
 .photo{
-    text-align: left;
+    text-align: center;
 }
 .photo img{
     width: 160px;
@@ -190,4 +190,35 @@ section > div{
     height: 25px;
     margin-top: -30px;
     margin-bottom: -10px;
+}
+
+/*version ordinateur*/
+@media screen and (min-width: 980px){
+    section{
+        width: 80%;
+        box-shadow: 0px 0px 10px rgb(255, 182, 182);
+    }
+    header h1{
+        width: 80%;
+    }
+    .presentation, .contact{
+        flex: 0 0 45%;
+    }
+    .presentation{
+        border-right: 2px solid #138, 137, 137;
+        padding-right: 20px;
+        margin-left:auto;
+        border-bottom: none;
+    }
+    .contact{
+        padding-left: 20px;
+        margin-left: auto;
+    }
+    .formation-logo{
+        flex: 0 0 10%;
+    }
+    .formation-info, .formation-desc{
+        flex: 0 0 85%;
+        margin-left: auto;
+    }
 }
