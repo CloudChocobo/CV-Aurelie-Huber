@@ -16,7 +16,6 @@ a{
     text-decoration: none;
     color: #000;
 }
-
 /*Header, Footer*/
 header, footer{
     width: 100%;
@@ -55,7 +54,6 @@ footer p{
     color:#000;
     text-align: center;
 }
-
 /*Sections*/
 section{
     display: flex;
@@ -74,7 +72,6 @@ section h2{
 section > div{
     width: 90%
 }
-
 /*presentation*/
 .photo{
     text-align: center;
@@ -105,7 +102,6 @@ section > div{
     width: 40px;
     height: 40px;
 }
-
 /*bloc formation*/
 .formation{
     display: flex;
@@ -123,7 +119,6 @@ section > div{
     flex: 0 0 25%;
     max-width: 60px;
 }
-
 .formation img{
     width: 100%;
 }
@@ -134,7 +129,6 @@ section > div{
     font-size: 1em;
     font-weight: normal;
 }
-
 /*bloc compétences acquises en formation*/
 .competence{
     display: flex;
@@ -164,9 +158,6 @@ section > div{
     border-radius: 50%;
     box-shadow: 0px 0px 15px rgb(138, 137, 137);
 }
-
-/*bloc compétences personnelles*/
-
 /*bloc centres d'intérêts*/
 .interets{
     display: flex;
@@ -174,7 +165,6 @@ section > div{
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
-
 .interets-desc{
     display: flex;
     flex-flow: row wrap;
@@ -184,14 +174,12 @@ section > div{
     flex: 0 0 75%;
     margin-left: auto;
 }
-
 .interets .twitter{
     width: 25px;
     height: 25px;
     margin-top: -30px;
     margin-bottom: -10px;
 }
-
 /*version ordinateur*/
 @media screen and (min-width: 980px){
     section{
