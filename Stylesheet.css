@@ -6,7 +6,7 @@
     text-align: justify;box-sizing: border-box;
 }
 body{
-    background: rgb(248, 235, 235);
+    background: rgb(255, 231, 231);
 }
 p{
     font-size: 1em; /* valeur taille de la police de caractère*/
@@ -29,19 +29,19 @@ header{
     height: 180px;
 }
 header h1{
-    color:rgb(102, 102, 102);
+    color:#000;
     font-size: 1.5em;width: 90%;
     margin: 0 auto;
     text-align: center;
 }
 header h2{
-    color:rgb(102, 102, 102);
+    color:#000;
     font-size: 1em;width: 90%;
     margin: 0 auto;
     text-align: center;
 }
 header h3{
-    color:rgb(102, 102, 102);
+    color:#000;
     font-size: 1em;width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -52,7 +52,7 @@ footer{
 footer p{
     width: 90%;
     margin: 0 auto;
-    color:rgb(102, 102, 102);
+    color:#000;
     text-align: center;
 }
 
@@ -65,7 +65,7 @@ section{
     padding-bottom: 20px;
     margin: 0px auto;
     box-shadow: 0px 0px 10px rgb(255, 182, 182);
-    background-color: rgb(245, 252, 253);
+    background-color: rgb(255, 255, 255);
 }
 section h2{
     margin: 20px 0;
@@ -82,7 +82,7 @@ section > div{
 .photo img{
     width: 160px;
     height: 190px;
-    border: 3px solid #fff;
+    border: 3px solid rgb(255, 182, 182);
     box-shadow: 0px 0px 10px rgb(138, 137, 137);
     border-radius: 10%;
     margin-top: -90px;
@@ -205,7 +205,7 @@ section > div{
         flex: 0 0 45%;
     }
     .presentation{
-        border-right: 2px solid #138, 137, 137;
+        border-right: 2px solid rgb(138, 137, 137);
         padding-right: 20px;
         margin-left:auto;
         border-bottom: none;
